@@ -104,6 +104,12 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
   },
   {
+    title: "FILMPIRE",
+    description: `Flipire is a front-end application that uses React and Redux for managing state. The project integrates with the TMDb API to fetch movie data. Users can browse a wide range of movies, search for specific titles, and create personalized watchlists. The responsive design ensures a seamless experience across various devices. All movie data is fetched dynamically from the TMDb API, allowing users to access the latest information. Users can save their favorite movies to easily find them later. Flipire leverages modern web technologies to provide an engaging and efficient way to explore and manage movie collections.`,
+    tags: ["React", "REDUX", "TMDB"],
+    imageUrl: wordanalyticsImg,
+  },
+  {
     title: "PARTICLE EXPLOSION",
     description: `This project focuses on simulating visually appealing particle explosions with periodic color-changing effects using C++ programming language along with the SDL (Simple DirectMedia Layer) extension.`,
     tags: ["C++", "SDL"],
