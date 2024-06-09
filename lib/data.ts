@@ -77,7 +77,7 @@ export const projectsData = [
     imageUrl: corpcommentImg,
   },
   {
-    title: "Learn new facts daily",
+    title: "LEARN NEW FACTS DAILY",
     description: `The project was built using HTML, CSS, JavaScript, and React. We used Supabase as the database, which offers an API for the backend and allows for easy data manipulation. Netlify was used to host the page. Users can interact with the database by giving reactions, filtering, and adding new curiosities with valid sources starting with HTTP or HTTPS.`,
     tags: ["React", "HTML", "CSS", "Supabase"],
     imageUrl: rmtdevImg,
