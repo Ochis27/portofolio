@@ -74,19 +74,19 @@ export const projectsData = [
     description:
       "I build a neuronal network in Java which is used to detect text from images and it is trained on a MNIST dataset.",
     tags: ["Java", "JUnit", "MNIST", "Linear Algebra"],
-    imageUrl: corpcommentImg,
+    imageUrl: nuronalNetwork,
   },
   {
     title: "LEARN NEW FACTS DAILY",
     description: `The project was built using HTML, CSS, JavaScript, and React. We used Supabase as the database, which offers an API for the backend and allows for easy data manipulation. Netlify was used to host the page. Users can interact with the database by giving reactions, filtering, and adding new curiosities with valid sources starting with HTTP or HTTPS.`,
     tags: ["React", "HTML", "CSS", "Supabase"],
-    imageUrl: rmtdevImg,
+    imageUrl: learningNewFactsDaily,
   },
   {
     title: "SMARTBRAIN",
     description: `SmartBrain is a fullstack application which uses React for the frontend, Node.js for the backend and PostgreSQL as a database. The project has integrated a machine learning API, which is used to detect faces. Users can upload a photo and then press a button to detect how many photos were in that image, all of the data is then stored in a database.`,
     tags: ["React", "Node.js", "PostgreSQL", "CSS"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: smartBrains,
   },
   {
     title: "LIBRARY MANAGEMENT SYSTEM",
@@ -107,13 +107,13 @@ export const projectsData = [
     title: "FILMPIRE",
     description: `Flipire is a front-end application that uses React and Redux for managing state. The project integrates with the TMDb API to fetch movie data. Users can browse a wide range of movies, search for specific titles, and create personalized watchlists. The responsive design ensures a seamless experience across various devices. All movie data is fetched dynamically from the TMDb API, allowing users to access the latest information. Users can save their favorite movies to easily find them later. Flipire leverages modern web technologies to provide an engaging and efficient way to explore and manage movie collections.`,
     tags: ["React", "REDUX", "TMDB"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: filmpire,
   },
   {
     title: "PARTICLE EXPLOSION",
     description: `This project focuses on simulating visually appealing particle explosions with periodic color-changing effects using C++ programming language along with the SDL (Simple DirectMedia Layer) extension.`,
     tags: ["C++", "SDL"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: particleExplozion,
   },
 ] as const;
 
